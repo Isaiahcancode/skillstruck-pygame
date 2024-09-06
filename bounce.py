@@ -21,7 +21,7 @@ movement_y = 2
 while running:
 
     display.fill(white)
-    pygame.draw.rect(display, black, [rect_x, rect_y, 100, 20])
+    pygame.draw.rect(display, black, [rect_x, rect_y, 100, 59])
 
 
     rect_x = rect_x + movement_x
